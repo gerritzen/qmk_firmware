@@ -13,8 +13,10 @@ EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no        # Console for debug
 COMMAND_ENABLE = no        # Commands for debug and configuration
 NKRO_ENABLE = yes           # Enable N-Key Rollover
-BACKLIGHT_ENABLE = yes       # Enable keyboard backlight functionality
-RGBLIGHT_ENABLE = yes        # Enable keyboard RGB underglow
+BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
+RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
+UNICODEMAP_ENABLE = yes
+DEBOUNCE_TYPE = sym_eager_pk
 
 LAYOUTS = 65_ansi 65_iso 65_ansi_blocker 65_ansi_blocker_split_bs 65_ansi_split_bs

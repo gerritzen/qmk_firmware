@@ -30,7 +30,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DIODE_DIRECTION COL2ROW
 
 /* Debouncing reduces chatter */
-#define DEBOUNCE 5
+#define DEBOUNCE 50
 
 /* indicators */
 #define LED_CAPS_LOCK_PIN D4
@@ -53,3 +53,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_LIMIT_VAL 240
 #define RGBLIGHT_SLEEP
 #endif
+
+#define UNICODE_SELECTED_MODES UC_LNX
